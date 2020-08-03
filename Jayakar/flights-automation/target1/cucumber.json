@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12982473357,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the site",
+            "match": {
+              "location": "UIFFTest.user_navigates_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 69897685,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 329778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Selecting the best itinerary based on the fastest and cheapest travel",
+        "description": "",
+        "id": "flight-itinerary-planner-for-parellel-execution;selecting-the-best-itinerary-based-on-the-fastest-and-cheapest-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 39111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 42222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14869573951,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"Pune\" and \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pune",
+                  "offset": 13
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 24
+                }
+              ],
+              "location": "UIFFTest.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4836324218,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is shown the result page with the fare",
+            "match": {
+              "location": "UIFFTest.user_is_shown_the_result_page_with_the_fare()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174651323,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is shown the best itinerary based on fastest and cheapest travel",
+            "match": {
+              "location": "UIFFTest.user_is_shown_the_best_itinerary_based_on_fastest_and_cheapest_travel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11332646667,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the site",
+            "match": {
+              "location": "UIFFTest.user_navigates_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 238222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 204444,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Selecting the evening flight when multiple itinerary options are shown",
+        "description": "",
+        "id": "flight-itinerary-planner-for-parellel-execution;selecting-the-evening-flight-when-multiple-itinerary-options-are-shown",
+        "after": [
+          {
+            "result": {
+              "duration": 262666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 33778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14429068317,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"Delhi\" and \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 13
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 25
+                }
+              ],
+              "location": "UIFFTest.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4831651780,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is shown the result page with the fare",
+            "match": {
+              "location": "UIFFTest.user_is_shown_the_result_page_with_the_fare()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1649090246,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects the evening flight which is the fastest",
+            "match": {
+              "location": "UIFFTest.user_selects_the_evening_flight_which_is_the_fastest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight itinerary planner for parellel execution",
+    "description": "",
+    "id": "flight-itinerary-planner-for-parellel-execution",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/crossbrowser.feature"
+  }
+]

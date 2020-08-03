@@ -1,0 +1,177 @@
+[
+  {
+    "source": "^the best itinerary is displayed based on fastest and cheapest travel$",
+    "steps": [
+      {
+        "name": "the best itinerary is displayed based on fastest and cheapest travel",
+        "aggregatedDurations": {
+          "average": 1.155494015,
+          "median": 1.155494015
+        },
+        "durations": [
+          {
+            "duration": 1.155494015,
+            "location": "src/test/resources/features/flight.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter \"Bengaluru\" and \"Hyderabad\"",
+        "aggregatedDurations": {
+          "average": 14.289522725,
+          "median": 14.289522725
+        },
+        "durations": [
+          {
+            "duration": 14.289522725,
+            "location": "src/test/resources/features/flight.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Mumbai\" and \"Delhi\"",
+        "aggregatedDurations": {
+          "average": 14.023912413,
+          "median": 14.023912413
+        },
+        "durations": [
+          {
+            "duration": 14.023912413,
+            "location": "src/test/resources/features/flight.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Pune\" and \"Hyderabad\"",
+        "aggregatedDurations": {
+          "average": 14.055718593,
+          "median": 14.055718593
+        },
+        "durations": [
+          {
+            "duration": 14.055718593,
+            "location": "src/test/resources/features/flight.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Delhi\" and \"Hyderabad\"",
+        "aggregatedDurations": {
+          "average": 14.041507945,
+          "median": 14.041507945
+        },
+        "durations": [
+          {
+            "duration": 14.041507945,
+            "location": "src/test/resources/features/flight.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am shown the result page with the fares$",
+    "steps": [
+      {
+        "name": "I am shown the result page with the fares",
+        "aggregatedDurations": {
+          "average": 4.391729588,
+          "median": 4.39324792
+        },
+        "durations": [
+          {
+            "duration": 4.403742573,
+            "location": "src/test/resources/features/flight.feature:8"
+          },
+          {
+            "duration": 4.496263782,
+            "location": "src/test/resources/features/flight.feature:8"
+          },
+          {
+            "duration": 4.284158732,
+            "location": "src/test/resources/features/flight.feature:19"
+          },
+          {
+            "duration": 4.382753267,
+            "location": "src/test/resources/features/flight.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select the evening flight which is the fastest$",
+    "steps": [
+      {
+        "name": "I select the evening flight which is the fastest",
+        "aggregatedDurations": {
+          "average": 1.46141894,
+          "median": 1.46141894
+        },
+        "durations": [
+          {
+            "duration": 1.46141894,
+            "location": "src/test/resources/features/flight.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to the site$",
+    "steps": [
+      {
+        "name": "I navigate to the site",
+        "aggregatedDurations": {
+          "average": 8.620075284,
+          "median": 8.331912002
+        },
+        "durations": [
+          {
+            "duration": 8.489350903,
+            "location": "src/test/resources/features/flight.feature:4"
+          },
+          {
+            "duration": 10.066823022,
+            "location": "src/test/resources/features/flight.feature:4"
+          },
+          {
+            "duration": 7.749654111,
+            "location": "src/test/resources/features/flight.feature:4"
+          },
+          {
+            "duration": 8.174473101,
+            "location": "src/test/resources/features/flight.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I check the available flight results$",
+    "steps": [
+      {
+        "name": "I check the available flight results",
+        "aggregatedDurations": {
+          "average": 0.568104131,
+          "median": 0.568104131
+        },
+        "durations": [
+          {
+            "duration": 0.525173522,
+            "location": "src/test/resources/features/flight.feature:9"
+          },
+          {
+            "duration": 0.611034741,
+            "location": "src/test/resources/features/flight.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

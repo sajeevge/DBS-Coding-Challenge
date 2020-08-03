@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="112.212688">
+    <testcase classname="Flight itinerary planner" name="Search for a given flight source/destination and get the fares" time="27.708235">
+        <system-out><![CDATA[Given I navigate to the site................................................passed
+When I enter "Bengaluru" and "Hyderabad"....................................passed
+Then I am shown the result page with the fares..............................passed
+And I check the available flight results....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight itinerary planner" name="Search for a given flight source/destination and get the fares 2" time="29.198391">
+        <system-out><![CDATA[Given I navigate to the site................................................passed
+When I enter "Mumbai" and "Delhi"...........................................passed
+Then I am shown the result page with the fares..............................passed
+And I check the available flight results....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight itinerary planner" name="Selecting the best itinerary based on the fastest and cheapest travel" time="27.245377">
+        <system-out><![CDATA[Given I navigate to the site................................................passed
+When I enter "Pune" and "Hyderabad".........................................passed
+And I am shown the result page with the fares...............................passed
+Then the best itinerary is displayed based on fastest and cheapest travel...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight itinerary planner" name="Selecting the evening flight when multiple itinerary options are shown" time="28.060685">
+        <system-out><![CDATA[Given I navigate to the site................................................passed
+When I enter "Delhi" and "Hyderabad"........................................passed
+And I am shown the result page with the fares...............................passed
+Then I select the evening flight which is the fastest.......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

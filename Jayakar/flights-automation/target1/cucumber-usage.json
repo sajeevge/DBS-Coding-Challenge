@@ -1,0 +1,113 @@
+[
+  {
+    "source": "^user navigates to the site$",
+    "steps": [
+      {
+        "name": "user navigates to the site",
+        "aggregatedDurations": {
+          "average": 12.157560012,
+          "median": 12.157560012
+        },
+        "durations": [
+          {
+            "duration": 12.982473357,
+            "location": "src/test/resources/features/crossbrowser.feature:4"
+          },
+          {
+            "duration": 11.332646667,
+            "location": "src/test/resources/features/crossbrowser.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters \"Pune\" and \"Hyderabad\"",
+        "aggregatedDurations": {
+          "average": 14.869573951,
+          "median": 14.869573951
+        },
+        "durations": [
+          {
+            "duration": 14.869573951,
+            "location": "src/test/resources/features/crossbrowser.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "user enters \"Delhi\" and \"Hyderabad\"",
+        "aggregatedDurations": {
+          "average": 14.429068317,
+          "median": 14.429068317
+        },
+        "durations": [
+          {
+            "duration": 14.429068317,
+            "location": "src/test/resources/features/crossbrowser.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is shown the best itinerary based on fastest and cheapest travel$",
+    "steps": [
+      {
+        "name": "user is shown the best itinerary based on fastest and cheapest travel",
+        "aggregatedDurations": {
+          "average": 1.174651323,
+          "median": 1.174651323
+        },
+        "durations": [
+          {
+            "duration": 1.174651323,
+            "location": "src/test/resources/features/crossbrowser.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user selects the evening flight which is the fastest$",
+    "steps": [
+      {
+        "name": "user selects the evening flight which is the fastest",
+        "aggregatedDurations": {
+          "average": 1.649090246,
+          "median": 1.649090246
+        },
+        "durations": [
+          {
+            "duration": 1.649090246,
+            "location": "src/test/resources/features/crossbrowser.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is shown the result page with the fare$",
+    "steps": [
+      {
+        "name": "user is shown the result page with the fare",
+        "aggregatedDurations": {
+          "average": 4.833987999,
+          "median": 4.833987999
+        },
+        "durations": [
+          {
+            "duration": 4.836324218,
+            "location": "src/test/resources/features/crossbrowser.feature:9"
+          },
+          {
+            "duration": 4.83165178,
+            "location": "src/test/resources/features/crossbrowser.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]

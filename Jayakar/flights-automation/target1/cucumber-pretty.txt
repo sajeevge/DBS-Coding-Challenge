@@ -1,0 +1,17 @@
+Feature: Flight itinerary planner for parellel execution
+
+  Background: User navigates to the google flight search page [90m# src/test/resources/features/crossbrowser.feature:3[0m
+    [32mGiven [0m[32muser navigates to the site[0m                          [90m# UIFFTest.user_navigates_to_the_site()[0m
+
+  Scenario: Selecting the best itinerary based on the fastest and cheapest travel [90m# src/test/resources/features/crossbrowser.feature:7[0m
+    [32mWhen [0m[32muser enters "[0m[32m[1mPune[0m[32m" and "[0m[32m[1mHyderabad[0m[32m"[0m                                       [90m# UIFFTest.user_enter_and(String,String)[0m
+    [32mAnd [0m[32muser is shown the result page with the fare[0m                               [90m# UIFFTest.user_is_shown_the_result_page_with_the_fare()[0m
+    [32mThen [0m[32muser is shown the best itinerary based on fastest and cheapest travel[0m    [90m# UIFFTest.user_is_shown_the_best_itinerary_based_on_fastest_and_cheapest_travel()[0m
+
+  Background: User navigates to the google flight search page [90m# src/test/resources/features/crossbrowser.feature:3[0m
+    [32mGiven [0m[32muser navigates to the site[0m                          [90m# UIFFTest.user_navigates_to_the_site()[0m
+
+  Scenario: Selecting the evening flight when multiple itinerary options are shown [90m# src/test/resources/features/crossbrowser.feature:12[0m
+    [32mWhen [0m[32muser enters "[0m[32m[1mDelhi[0m[32m" and "[0m[32m[1mHyderabad[0m[32m"[0m                                       [90m# UIFFTest.user_enter_and(String,String)[0m
+    [32mAnd [0m[32muser is shown the result page with the fare[0m                                [90m# UIFFTest.user_is_shown_the_result_page_with_the_fare()[0m
+    [32mThen [0m[32muser selects the evening flight which is the fastest[0m                      [90m# UIFFTest.user_selects_the_evening_flight_which_is_the_fastest()[0m

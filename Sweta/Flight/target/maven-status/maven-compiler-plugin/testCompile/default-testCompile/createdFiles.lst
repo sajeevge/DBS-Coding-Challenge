@@ -1,0 +1,3 @@
+com\flights\steps\FlightSearchSteps.class
+com\flights\runners\RunCucumberTest.class
+com\flights\steps\MasterHooks.class

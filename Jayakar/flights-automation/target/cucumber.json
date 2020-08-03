@@ -1,0 +1,488 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8489350903,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the site",
+            "match": {
+              "location": "UITest.navigateToUI()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 165777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search for a given flight source/destination and get the fares",
+        "description": "",
+        "id": "flight-itinerary-planner;search-for-a-given-flight-source/destination-and-get-the-fares;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 17778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 13778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14289522725,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Bengaluru\" and \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bengaluru",
+                  "offset": 9
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 25
+                }
+              ],
+              "location": "UITest.enterSourceDestination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4403742573,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am shown the result page with the fares",
+            "match": {
+              "location": "UITest.bestItineraryChooser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 525173522,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check the available flight results",
+            "match": {
+              "location": "UITest.checkAvailableFlightResult()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10066823022,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the site",
+            "match": {
+              "location": "UITest.navigateToUI()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 182666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 122667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search for a given flight source/destination and get the fares",
+        "description": "",
+        "id": "flight-itinerary-planner;search-for-a-given-flight-source/destination-and-get-the-fares;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 34222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14023912413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Mumbai\" and \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 9
+                },
+                {
+                  "val": "Delhi",
+                  "offset": 22
+                }
+              ],
+              "location": "UITest.enterSourceDestination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4496263782,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am shown the result page with the fares",
+            "match": {
+              "location": "UITest.bestItineraryChooser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 611034741,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check the available flight results",
+            "match": {
+              "location": "UITest.checkAvailableFlightResult()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7749654111,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the site",
+            "match": {
+              "location": "UITest.navigateToUI()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 190667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 119999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Selecting the best itinerary based on the fastest and cheapest travel",
+        "description": "",
+        "id": "flight-itinerary-planner;selecting-the-best-itinerary-based-on-the-fastest-and-cheapest-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14055718593,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"Pune\" and \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pune",
+                  "offset": 9
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 20
+                }
+              ],
+              "location": "UITest.enterSourceDestination(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4284158732,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am shown the result page with the fares",
+            "match": {
+              "location": "UITest.bestItineraryChooser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1155494015,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the best itinerary is displayed based on fastest and cheapest travel",
+            "match": {
+              "location": "UITest.bestItineraryChoosers()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is navigates to the google flight search page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8174473101,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the site",
+            "match": {
+              "location": "UITest.navigateToUI()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 261333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.setUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 185333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Selecting the evening flight when multiple itinerary options are shown",
+        "description": "",
+        "id": "flight-itinerary-planner;selecting-the-evening-flight-when-multiple-itinerary-options-are-shown",
+        "after": [
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIFFTest.after(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 56889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UITest.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14041507945,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter \"Delhi\" and \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 9
+                },
+                {
+                  "val": "Hyderabad",
+                  "offset": 21
+                }
+              ],
+              "location": "UITest.enterSourceDestination(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4382753267,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am shown the result page with the fares",
+            "match": {
+              "location": "UITest.bestItineraryChooser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1461418940,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select the evening flight which is the fastest",
+            "match": {
+              "location": "UITest.bestItineraryChooserByTime()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight itinerary planner",
+    "description": "",
+    "id": "flight-itinerary-planner",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/flight.feature"
+  }
+]

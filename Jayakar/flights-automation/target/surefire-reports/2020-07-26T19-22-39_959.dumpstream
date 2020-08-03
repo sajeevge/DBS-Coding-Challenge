@@ -1,0 +1,30 @@
+# Created at 2020-07-26T19:22:44.922
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2020-07-26T19:22:44.923
+WARNING: Illegal reflective access by cucumber.deps.com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/LVST/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar) to field java.util.TreeMap.comparator
+
+# Created at 2020-07-26T19:22:44.924
+WARNING: Please consider reporting this to the maintainers of cucumber.deps.com.thoughtworks.xstream.core.util.Fields
+
+# Created at 2020-07-26T19:22:44.924
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2020-07-26T19:22:44.925
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2020-07-26T19:22:45.002
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2020-07-26T19:22:45.003
+WARNING: Illegal reflective access by cucumber.deps.com.thoughtworks.xstream.core.util.Fields (file:/C:/Users/LVST/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar) to field java.util.TreeMap.comparator
+
+# Created at 2020-07-26T19:22:45.007
+WARNING: Please consider reporting this to the maintainers of cucumber.deps.com.thoughtworks.xstream.core.util.Fields
+
+# Created at 2020-07-26T19:22:45.008
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2020-07-26T19:22:45.012
+WARNING: All illegal access operations will be denied in a future release
+

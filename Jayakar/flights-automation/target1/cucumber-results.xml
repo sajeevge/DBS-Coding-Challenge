@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="66.176528">
+    <testcase classname="Flight itinerary planner for parellel execution" name="Selecting the best itinerary based on the fastest and cheapest travel" time="33.933332">
+        <system-out><![CDATA[Given user navigates to the site............................................passed
+When user enters "Pune" and "Hyderabad".....................................passed
+And user is shown the result page with the fare.............................passed
+Then user is shown the best itinerary based on fastest and cheapest travel..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight itinerary planner for parellel execution" name="Selecting the evening flight when multiple itinerary options are shown" time="32.243196">
+        <system-out><![CDATA[Given user navigates to the site............................................passed
+When user enters "Delhi" and "Hyderabad"....................................passed
+And user is shown the result page with the fare.............................passed
+Then user selects the evening flight which is the fastest...................passed
+]]></system-out>
+    </testcase>
+</testsuite>

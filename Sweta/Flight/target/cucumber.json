@@ -1,0 +1,382 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-28T11:57:12.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.setBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "It will search for the flight in between given source and destination city",
+        "description": "",
+        "id": "this-test-will-search-for-the-flights-for-given-city-pair-with-using-scenario-outline;it-will-search-for-the-flight-in-between-given-source-and-destination-city;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1670000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16193000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access website \"https://www.goibibo.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.goibibo.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_access_website_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7136000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Flight button on homepage",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_click_on_Flight_button_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 643000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select trip type as OneWay",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_select_trip_type_as_OneWay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter origin as \"\u003cPune\u003e\" in Depart field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPune\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_enter_origin_as_in_Depart_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1692000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter destination as \"Bengaluru\" in Arrival field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bengaluru\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_enter_destination_as_in_Arrival_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the date as today plus \"5\" in Depart date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_select_the_date_as_today_plus_in_Depart_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3068000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Search Flights button",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_click_on_Search_Flights_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1712000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify user is taken to select depart page with flight results page",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_verify_user_is_taken_to_select_depart_page_with_flight_results_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3040000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select suitable flight",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_select_suitable_flight()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flightSearch"
+          }
+        ]
+      }
+    ],
+    "name": "This test will search for the flights for given city pair with using scenario outline",
+    "description": "",
+    "id": "this-test-will-search-for-the-flights-for-given-city-pair-with-using-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/flightSearch.feature",
+    "tags": [
+      {
+        "name": "@flightSearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-28T11:57:12.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.setBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "It will search for the flight in between given source and destination city",
+        "description": "",
+        "id": "this-test-will-search-for-the-flights-for-given-city-pair-without-using-scenario-outline;it-will-search-for-the-flight-in-between-given-source-and-destination-city",
+        "after": [
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18602000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access website \"https://www.goibibo.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.goibibo.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_access_website_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6638000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Flight button on homepage",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_click_on_Flight_button_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select trip type as OneWay",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_select_trip_type_as_OneWay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter origin as \"Pune\" in Depart field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_enter_origin_as_in_Depart_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter destination as \"Bengaluru\" in Arrival field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bengaluru\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_enter_destination_as_in_Arrival_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the date as today plus \"10\" in Depart date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.flights.steps.FlightSearchSteps.i_select_the_date_as_today_plus_in_Depart_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2514000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Search Flights button",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_click_on_Search_Flights_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2217000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify user is taken to select depart page with flight results page",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_verify_user_is_taken_to_select_depart_page_with_flight_results_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2892000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select suitable flight",
+            "match": {
+              "location": "com.flights.steps.FlightSearchSteps.i_select_suitable_flight()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flightSearch"
+          }
+        ]
+      }
+    ],
+    "name": "This test will search for the flights for given city pair without using scenario outline",
+    "description": "",
+    "id": "this-test-will-search-for-the-flights-for-given-city-pair-without-using-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/flightSearchTwo.feature",
+    "tags": [
+      {
+        "name": "@flightSearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

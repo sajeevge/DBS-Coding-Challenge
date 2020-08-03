@@ -1,0 +1,40 @@
+Feature: Flight itinerary planner
+
+  Scenario Outline: Search for a given flight source/destination and get the fares [90m# src/test/resources/features/flight.feature:6[0m
+    [36mWhen [0m[36mI enter "<source>" and "<destination>"[0m
+    [36mThen [0m[36mI am shown the result page with the fares[0m
+    [36mAnd [0m[36mI check the available flight results[0m
+
+    Examples: 
+
+  Background: User is navigates to the google flight search page [90m# src/test/resources/features/flight.feature:3[0m
+    [32mGiven [0m[32mI navigate to the site[0m                                 [90m# UITest.navigateToUI()[0m
+
+  Scenario Outline: Search for a given flight source/destination and get the fares [90m# src/test/resources/features/flight.feature:14[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mBengaluru[0m[32m" and "[0m[32m[1mHyderabad[0m[32m"[0m                                       [90m# UITest.enterSourceDestination(String,String)[0m
+    [32mThen [0m[32mI am shown the result page with the fares[0m                                 [90m# UITest.bestItineraryChooser()[0m
+    [32mAnd [0m[32mI check the available flight results[0m                                       [90m# UITest.checkAvailableFlightResult()[0m
+
+  Background: User is navigates to the google flight search page [90m# src/test/resources/features/flight.feature:3[0m
+    [32mGiven [0m[32mI navigate to the site[0m                                 [90m# UITest.navigateToUI()[0m
+
+  Scenario Outline: Search for a given flight source/destination and get the fares [90m# src/test/resources/features/flight.feature:15[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mMumbai[0m[32m" and "[0m[32m[1mDelhi[0m[32m"[0m                                              [90m# UITest.enterSourceDestination(String,String)[0m
+    [32mThen [0m[32mI am shown the result page with the fares[0m                                 [90m# UITest.bestItineraryChooser()[0m
+    [32mAnd [0m[32mI check the available flight results[0m                                       [90m# UITest.checkAvailableFlightResult()[0m
+
+  Background: User is navigates to the google flight search page [90m# src/test/resources/features/flight.feature:3[0m
+    [32mGiven [0m[32mI navigate to the site[0m                                 [90m# UITest.navigateToUI()[0m
+
+  Scenario: Selecting the best itinerary based on the fastest and cheapest travel [90m# src/test/resources/features/flight.feature:17[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mPune[0m[32m" and "[0m[32m[1mHyderabad[0m[32m"[0m                                           [90m# UITest.enterSourceDestination(String,String)[0m
+    [32mAnd [0m[32mI am shown the result page with the fares[0m                                 [90m# UITest.bestItineraryChooser()[0m
+    [32mThen [0m[32mthe best itinerary is displayed based on fastest and cheapest travel[0m     [90m# UITest.bestItineraryChoosers()[0m
+
+  Background: User is navigates to the google flight search page [90m# src/test/resources/features/flight.feature:3[0m
+    [32mGiven [0m[32mI navigate to the site[0m                                 [90m# UITest.navigateToUI()[0m
+
+  Scenario: Selecting the evening flight when multiple itinerary options are shown [90m# src/test/resources/features/flight.feature:22[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mDelhi[0m[32m" and "[0m[32m[1mHyderabad[0m[32m"[0m                                           [90m# UITest.enterSourceDestination(String,String)[0m
+    [32mAnd [0m[32mI am shown the result page with the fares[0m                                  [90m# UITest.bestItineraryChooser()[0m
+    [32mThen [0m[32mI select the evening flight which is the fastest[0m                          [90m# UITest.bestItineraryChooserByTime()[0m
